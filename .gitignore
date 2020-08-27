@@ -2,4 +2,3 @@
 /.idea
 /app.db
 /logs/*.*
-/env.txt
