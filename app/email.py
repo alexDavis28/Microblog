@@ -26,8 +26,3 @@ def send_password_reset_email(user):
                                          user=user, token=token),
                html_body=render_template('email/reset_password.html',
                                          user=user, token=token))
-
-    # send_email('[Microblog] Reset Your Password',
-    #            sender=app.config['ADMINS'][0],
-    #            recipients=[user.email],
-    #            html_body=render_template('email/reset_password.html', user=user, token=token))
