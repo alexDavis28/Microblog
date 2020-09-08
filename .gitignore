@@ -2,3 +2,5 @@
 /.idea
 /app.db
 /logs/*.*
+.replit
+__pycache__/*
